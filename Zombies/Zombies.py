@@ -1,7 +1,7 @@
 #
 #  Z o m b i e s . p y
 #
-#  By Edward Forgacs & Sejin Oh.
+#  By Edward Forgacs & Sejin Oh (2018).
 #
 
 
