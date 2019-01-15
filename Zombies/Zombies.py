@@ -1,7 +1,7 @@
 #
 #  Z o m b i e s . p y
 #
-#  Copyright 2018 by Edward Forgacs & Sejin Oh.
+#  By Edward Forgacs & Sejin Oh.
 #
 
 
