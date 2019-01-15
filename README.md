@@ -1,2 +1,2 @@
 # Zombies
-Text-based adventure game
+Text-based adventure game. Fight zombies in a post-apocalyptic scenario.
