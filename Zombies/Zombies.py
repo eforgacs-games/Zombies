@@ -192,31 +192,26 @@ def kill_zombie_with_gun():
 def kill_zombie_with_shield():
     if Inventory.shield is True:
         # TODO: Make an enter press needed for every 10 HP that an enemy has.
-        print("You hit the zombie using the shield.")
-        input()
-        print("You hit the zombie using the shield.")
-        input()
-        print("You hit the zombie using the shield.")
-        input()
-        print("You hit the zombie using the shield.")
-        input()
-        print("You hit the zombie using the shield.")
-        input()
-        print("You hit the zombie using the shield.")
-        input()
-        print("You hit the zombie using the shield.")
-        input()
-        print("You hit the zombie using the shield.")
-        input()
-        print("You hit the zombie using the shield.")
-        input()
-        print("You hit the zombie using the shield.")
-        input()
+        hit_with_weapon("shield")
+        hit_with_weapon("shield")
+        hit_with_weapon("shield")
+        hit_with_weapon("shield")
+        hit_with_weapon("shield")
+        hit_with_weapon("shield")
+        hit_with_weapon("shield")
+        hit_with_weapon("shield")
+        hit_with_weapon("shield")
+        hit_with_weapon("shield")
         print("You finally killed the zombie.")
 
     if Inventory.shield is False:
         print("You don't have a shield.")
         fight_zombie()
+
+
+def hit_with_weapon(weapon: str):
+    print(f"You hit the zombie using the {weapon}.")
+    input()
 
 
 def kill_zombie_with_bare_hands():
